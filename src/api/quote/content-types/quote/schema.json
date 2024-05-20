@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quotes",
+  "info": {
+    "singularName": "quote",
+    "pluralName": "quotes",
+    "displayName": "Quote",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "quotes"
+    }
+  }
+}
