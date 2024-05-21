@@ -4,4 +4,5 @@ module.exports = ({ env }) => ({
     app: {
       keys: env.array('APP_KEYS')
     },
+    port: process.env.PORT || 1337,
   });
