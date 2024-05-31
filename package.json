@@ -1,12 +1,8 @@
 {
-  "name": "my-project",
-  "version": "0.1.0",
-  "private": true,
-  "description": "A Strapi application",
-  "license": "MIT",
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "name": "strapi-quote-api",
+  "version": "1.0.0",
+  "description": "Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.",
+  "main": "index.js",
   "scripts": {
     "build": "strapi build",
     "develop": "strapi develop",
@@ -17,19 +13,18 @@
     "@strapi/plugin-cloud": "4.24.2",
     "@strapi/plugin-i18n": "4.24.2",
     "@strapi/plugin-users-permissions": "4.24.2",
+    "@strapi/provider-upload-cloudinary": "^4.24.4",
     "@strapi/strapi": "4.24.2",
     "better-sqlite3": "8.6.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
-  "devDependencies": {},
-  "engines": {
-    "node": ">=18.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
-  },
   "strapi": {
     "uuid": "e2e9db36-056e-4ad5-8b09-56a15d4ade63"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

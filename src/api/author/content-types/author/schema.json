@@ -21,6 +21,16 @@
       "relation": "oneToMany",
       "target": "api::quote.quote",
       "mappedBy": "author"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
